@@ -1,0 +1,46 @@
+{
+  "name": "delivo-web-client",
+  "version": "0.0.1",
+  "description": "Web client module of the Delivo Project",
+  "author": {
+    "name": "Ivan",
+    "email": "contact@mixero.dev",
+    "url": "https://github.com/Mixerou"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mixerou/delivo.git",
+    "directory": "web-client"
+  },
+  "private": true,
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "lint:eslint": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --ignore-path .gitignore --check .",
+    "plint": "pnpm run lint:eslint && pnpm run lint:prettier",
+    "plint:fix": "pnpm run lint:eslint --fix && prettier --write --list-different ."
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "pinia": "^2.1.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/i18n": "^8.0.0-rc.4",
+    "@types/node": "^18.18.1",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "nuxt": "^3.7.4",
+    "prettier": "^3.0.3",
+    "sass": "^1.68.0",
+    "typescript": "^5.2.2",
+    "vite-svg-loader": "^4.0.0",
+    "vue-tsc": "^1.8.15"
+  }
+}

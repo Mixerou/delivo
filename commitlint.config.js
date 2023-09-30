@@ -18,7 +18,7 @@ module.exports = {
         'scope-enum': [
             2,
             'always',
-            ['*', 'repo'],
+            ['*', 'repo', 'web-cl'],
         ],
         'scope-case': [2, 'always', 'kebab-case'],
         'scope-empty': [2, 'never', false],

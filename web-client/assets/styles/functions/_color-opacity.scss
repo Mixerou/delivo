@@ -1,0 +1,7 @@
+@function color-with-opacity($color, $opacity) {
+  @return color-mix(
+    in srgb,
+    #{$color} #{$opacity * 100}#{'%'},
+    #{'#00000000'} 0.0001%
+  );
+}

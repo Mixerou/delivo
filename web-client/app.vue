@@ -80,9 +80,7 @@ watchEffect(() => {
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  @include dvw(width, 100);
+  width: 100vw;
   @include dvh(height, 100);
   scrollbar-width: none;
   background: var(--white);
@@ -169,6 +167,7 @@ h6 {
 }
 
 #app-container {
+  width: 100%;
   height: 100%;
 }
 </style>

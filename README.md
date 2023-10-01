@@ -12,6 +12,7 @@
     - [Usage](#usage)
 - [Versioning](#versioning)
     - [Explanation](#explanation-1)
+- [License](#license)
 
 ## Commit Lint
 
@@ -108,3 +109,8 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 - **PATCH** version when you make backwards compatible bug fixes
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+## License
+
+This project is available under the MIT license.
+See the [LICENSE](LICENSE) file for more info.

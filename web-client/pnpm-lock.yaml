@@ -8,6 +8,9 @@ dependencies:
   '@pinia/nuxt':
     specifier: ^0.4.11
     version: 0.4.11(typescript@5.2.2)(vue@3.3.4)
+  click-outside-vue3:
+    specifier: ^4.0.1
+    version: 4.0.1
   pinia:
     specifier: ^2.1.6
     version: 2.1.6(typescript@5.2.2)(vue@3.3.4)
@@ -3182,6 +3185,14 @@ packages:
         integrity: sha512-qMjRnoL+JDPJHeLePZJuao6+8orzHMGP04A8CdwCNsKhRbOnKRjefxONR7bwILT3MHecxKBjHkKL/tkZ8r4Uzw==,
       }
     dev: true
+
+  /click-outside-vue3@4.0.1:
+    resolution:
+      {
+        integrity: sha512-sbplNecrup5oGqA3o4bo8XmvHRT6q9fvw21Z67aDbTqB9M6LF7CuYLTlLvNtOgKU6W3zst5H5zJuEh4auqA34g==,
+      }
+    engines: { node: '>=6' }
+    dev: false
 
   /clipboardy@3.0.0:
     resolution:

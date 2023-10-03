@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
+    "click-outside-vue3": "^4.0.1",
     "pinia": "^2.1.6"
   },
   "devDependencies": {

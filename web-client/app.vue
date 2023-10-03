@@ -43,8 +43,6 @@ system.setLocale(
 )
 
 watchEffect(() => {
-  locale.value = system.locale
-
   useHead({
     titleTemplate: title => (title ? `${title} - Delivo` : 'Delivo'),
     htmlAttrs: {
@@ -164,6 +162,10 @@ h6 {
     line-height: 2rem;
     font-size: 1.25rem;
   }
+}
+
+strong {
+  font-weight: 600;
 }
 
 #app-container {

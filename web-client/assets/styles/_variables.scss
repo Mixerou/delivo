@@ -1,5 +1,8 @@
 :root {
   // General
+  --default-border-color: var(--primary);
+  --default-border: 0.125rem solid var(--default-border-color);
+
   --xs-radius: 0.25rem;
   --small-radius: 0.5rem;
   --default-radius: 0.75rem;

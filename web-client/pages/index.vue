@@ -1,20 +1,10 @@
-<script setup lang="ts">
-const { t } = useI18n()
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1>{{ t('heading') }}</h1>
+  <div class="page">
+    <HomePageHero />
+    <HomePageFeatures />
+  </div>
 </template>
 
 <style scoped lang="scss"></style>
-
-<i18n lang="json">
-{
-  "en-GB": {
-    "heading": "Home Page"
-  },
-  "ru-RU": {
-    "heading": "Домашняя страница"
-  }
-}
-</i18n>

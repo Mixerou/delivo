@@ -7,10 +7,18 @@
   }
 
   @include large-screen {
-    max-width: calc(100vw - 8rem);
+    max-width: calc(100vw - 12rem);
   }
 
   @include xl-screen {
-    max-width: calc(100vw - 12rem);
+    max-width: calc(100vw - 14rem);
+  }
+
+  @include xxl-screen {
+    max-width: calc(100vw - 18rem);
+  }
+
+  @include xxxl-screen {
+    max-width: 98rem;
   }
 }

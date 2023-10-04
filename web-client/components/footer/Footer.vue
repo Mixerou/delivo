@@ -26,8 +26,9 @@ const computedLocales = computed(() => {
 
 <style scoped lang="scss">
 footer {
-  width: calc(100% - 1rem * 2);
-  margin: 1rem auto;
+  width: calc(100% - 0.5rem * 2);
+  min-height: fit-content;
+  margin: 0 auto 1rem;
   padding: 1rem 0;
   border-radius: var(--xl-radius);
   background: var(--primary-light);
@@ -35,6 +36,7 @@ footer {
   @include medium-screen {
     width: calc(100% - 3rem * 2);
     height: 6rem;
+    min-height: 6rem;
     padding: 0;
   }
 
@@ -44,18 +46,14 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 100%;
+    width: calc(100% - 3rem * 2);
     height: 100%;
     margin: 0 auto;
+    padding: 0 3rem;
 
     @include medium-screen {
       flex-direction: row;
       justify-content: space-between;
-      width: calc(100% - 2rem);
-    }
-
-    @include large-screen {
-      @include default-widths;
     }
   }
 }

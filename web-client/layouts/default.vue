@@ -17,11 +17,16 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 4rem;
   width: 100vw;
   @include dvh(height, 100);
+  overflow-y: scroll;
 
-  main {
-    height: 100%;
+  main,
+  :deep(.page) {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
   }
 }
 </style>

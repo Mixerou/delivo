@@ -3,6 +3,7 @@ $medium-breakpoint: 768px;
 $large-breakpoint: 1024px;
 $xl-breakpoint: 1280px;
 $xxl-breakpoint: 1536px;
+$xxxl-breakpoint: 1760px;
 
 @mixin small-screen {
   @media (min-width: #{$small-breakpoint}) {
@@ -30,6 +31,12 @@ $xxl-breakpoint: 1536px;
 
 @mixin xxl-screen {
   @media (min-width: #{$xxl-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin xxxl-screen {
+  @media (min-width: #{$xxxl-breakpoint}) {
     @content;
   }
 }

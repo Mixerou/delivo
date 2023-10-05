@@ -172,4 +172,23 @@ strong {
   width: 100%;
   height: 100%;
 }
+
+.skeleton {
+  background: #d9d9d9;
+  animation: skeleton calc(var(--default-transition-duration) * 2) infinite;
+}
+
+@keyframes skeleton {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
 </style>

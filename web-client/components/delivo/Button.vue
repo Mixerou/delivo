@@ -15,17 +15,26 @@ defineProps({
     required: false,
     default: false,
   },
+  to: {
+    type: String as PropType<null | string>,
+    required: false,
+    default: null,
+  },
 })
 </script>
 
 <template>
-  <button :class="{ expanded, outlined }" :data-size="size">
+  <button v-if="to === null" :class="{ expanded, outlined }" :data-size="size">
     <slot />
   </button>
+  <NuxtLink v-else :to="to" :class="{ expanded, outlined }" :data-size="size">
+    <slot />
+  </NuxtLink>
 </template>
 
 <style scoped lang="scss">
-button {
+button,
+a {
   all: unset;
   display: flex;
   justify-content: center;

@@ -101,7 +101,7 @@ export default defineNuxtConfig({
     ],
   ],
   imports: {
-    dirs: ['./stores'],
+    dirs: ['./models', './stores', './types'],
   },
   devtools: { enabled: false },
   typescript: {

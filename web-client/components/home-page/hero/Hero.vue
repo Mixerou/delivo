@@ -14,9 +14,11 @@ const { t } = useI18n()
           </p>
           <DelivoInput :placeholder="t('input.placeholder')" />
           <div class="buttons">
-            <DelivoButton expanded>{{ t('buttons.deliver') }}</DelivoButton>
+            <DelivoButton to="/restaurants" expanded>{{
+              t('buttons.deliver')
+            }}</DelivoButton>
             <span>{{ $t('or') }}</span>
-            <DelivoButton expanded outlined>{{
+            <DelivoButton to="/restaurants" expanded outlined>{{
               t('buttons.pickUp')
             }}</DelivoButton>
           </div>

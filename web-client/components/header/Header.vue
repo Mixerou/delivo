@@ -26,7 +26,7 @@ const onLogoClick = () => {
       <p class="name">Delivo</p>
     </NuxtLink>
     <nav>
-      <DelivoLink>{{ $t('restaurants') }}</DelivoLink>
+      <DelivoLink to="/restaurants">{{ $t('restaurants') }}</DelivoLink>
       <DelivoLink>{{ t('aboutUs') }}</DelivoLink>
     </nav>
     <div class="buttons">

@@ -45,7 +45,7 @@ const onLogoClick = () => {
 
 <style scoped lang="scss">
 header {
-  --_padding-x: 6rem;
+  --_padding-x: 1rem;
 
   display: flex;
   justify-content: space-evenly;
@@ -54,14 +54,22 @@ header {
   height: 6rem;
   padding: 0 var(--_padding-x);
 
+  @include medium-screen {
+    --_padding-x: 6rem;
+  }
+
   .logo-container {
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 0.75rem;
     width: 100%;
     text-decoration: none;
     color: var(--black);
     transition: var(--fast-transition-duration);
+
+    @include medium-screen {
+      gap: 1rem;
+    }
 
     &:hover {
       opacity: 0.9;
@@ -90,44 +98,66 @@ header {
     }
 
     .logo {
-      width: 4rem;
+      width: 3.25rem;
       transition: var(--fast-transition-duration);
+
+      @include medium-screen {
+        width: 4rem;
+      }
     }
 
     .name {
       line-height: normal;
-      font-size: 2rem;
+      font-size: 1.75rem;
       font-weight: 700;
       transition: var(--fast-transition-duration);
+
+      @include medium-screen {
+        font-size: 2rem;
+      }
     }
   }
 
+  // TODO: Adapt for mobile
   nav {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     width: 100%;
+
+    @include large-screen {
+      display: flex;
+    }
   }
 
   .buttons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%;
     height: 1rem;
+
+    @include medium-screen {
+      gap: 2rem;
+    }
 
     .button {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 3.75rem;
-      height: 3.75rem;
+      width: 3.25rem;
+      height: 3.25rem;
       border-radius: var(--full-radius);
       background: var(--primary);
       cursor: pointer;
       transition: var(--fast-transition-duration);
+
+      @include medium-screen {
+        width: 3.75rem;
+        height: 3.75rem;
+      }
 
       &:hover {
         background: color-with-opacity(var(--primary), 0.875);
@@ -138,8 +168,12 @@ header {
       }
 
       .icon {
-        width: 1.75rem;
+        width: 1.5rem;
         fill: var(--white);
+
+        @include medium-screen {
+          width: 1.75rem;
+        }
       }
 
       &.cart {

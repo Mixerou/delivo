@@ -7,11 +7,22 @@ defineProps({
     required: true,
   },
 })
+
+const isCoverLoaded = ref(false)
 </script>
 
 <template>
   <NuxtLink class="card" :to="`/restaurants/${restaurant.id}`">
-    <img :src="`/fake-cdn/covers/${restaurant.coverId}.webp`" />
+    <img
+      class="image"
+      :class="{ hide: !isCoverLoaded }"
+      :src="`/fake-cdn/covers/${restaurant.coverId}.webp`"
+      :alt="restaurant.localedName"
+      @load="isCoverLoaded = true"
+    />
+    <Transition enter-from-class="hide" leave-to-class="hide">
+      <div v-if="!isCoverLoaded" class="image skeleton" />
+    </Transition>
     <div class="meta">
       <h6>{{ restaurant.localedName }}</h6>
       <p>{{ restaurant.localedSlogan }}</p>
@@ -21,6 +32,7 @@ defineProps({
 
 <style scoped lang="scss">
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 20rem;
@@ -46,7 +58,7 @@ defineProps({
       height: calc(15.5rem - 1rem * 2);
     }
 
-    img {
+    .image {
       height: 10.8rem;
     }
 
@@ -70,17 +82,33 @@ defineProps({
   &:active {
     background: color-with-opacity(var(--primary-light), 0.5);
 
-    img {
+    .image {
       transform: scale(0.95);
     }
   }
 
-  img {
+  .image {
+    z-index: 1;
     width: 100%;
     height: 12rem;
     border-radius: var(--xl-radius);
     object-fit: cover;
     transition: var(--fast-transition-duration);
+
+    &.skeleton {
+      position: absolute;
+      z-index: 0;
+      height: 11.25rem;
+
+      @include medium-screen {
+        height: 12rem;
+      }
+    }
+
+    &.hide {
+      opacity: 0;
+      animation: none;
+    }
   }
 
   .meta {

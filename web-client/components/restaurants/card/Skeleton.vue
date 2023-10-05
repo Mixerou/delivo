@@ -19,9 +19,13 @@
 
   .cover {
     width: 100%;
-    height: 12rem;
+    height: 11.25rem;
     border-radius: var(--xl-radius);
     object-fit: cover;
+
+    @include medium-screen {
+      height: 12rem;
+    }
   }
 
   .meta {

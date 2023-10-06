@@ -3,7 +3,6 @@ import IconFavourite from 'assets/icons/favourite.svg'
 import IconShoppingBag from 'assets/icons/shopping-bag.svg'
 
 const userStore = useUserStore()
-const { t } = useI18n()
 
 const isLogoAnimated = ref(false)
 
@@ -27,7 +26,7 @@ const onLogoClick = () => {
     </NuxtLink>
     <nav>
       <DelivoLink to="/restaurants">{{ $t('restaurants') }}</DelivoLink>
-      <DelivoLink>{{ t('aboutUs') }}</DelivoLink>
+      <DelivoLink to="/company">{{ $t('aboutUs') }}</DelivoLink>
     </nav>
     <div class="buttons">
       <div class="button">
@@ -230,14 +229,3 @@ header {
   }
 }
 </style>
-
-<i18n lang="json">
-{
-  "en-GB": {
-    "aboutUs": "About Us"
-  },
-  "ru-RU": {
-    "aboutUs": "О нас"
-  }
-}
-</i18n>

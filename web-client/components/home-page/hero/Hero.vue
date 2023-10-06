@@ -37,9 +37,9 @@ section {
   align-items: center;
   width: calc(100% - 0.5rem * 2);
   height: 48rem;
-  min-height: calc(100vh - 6rem - 6rem - 1rem - 4rem);
+  min-height: calc(100vh - 6rem - 2rem);
   margin: 1rem auto 0;
-  padding: 1rem 0;
+  padding: 2rem 0;
   border-radius: var(--xl-radius);
   background: var(--primary-light);
 
@@ -47,6 +47,10 @@ section {
     width: calc(100% - 3rem * 2);
     height: auto;
     padding: 0;
+  }
+
+  @include xxxl-screen {
+    min-height: calc(100vh - 6rem - 6rem - 1rem - 4rem);
   }
 
   .container {

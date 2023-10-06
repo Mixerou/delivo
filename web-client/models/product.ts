@@ -1,36 +1,30 @@
 import { Multilingual, parseMultilingual } from '~/types'
 
-export class Restaurant {
+export class Product {
   id: string
+  restaurantId: string
   name: string | Multilingual<string>
-  slogan: string | Multilingual<string>
   description: string | Multilingual<string>
+  categoryIds: string[]
   logoId: string
-  coverId: string
-  primaryColor: number
-  textColor: number
-  lightPrimaryColor: number
+  price: Multilingual<string>
 
   constructor(
     id: string,
+    restaurantId: string,
     name: string | Multilingual<string>,
-    slogan: string | Multilingual<string>,
     description: string | Multilingual<string>,
+    categoryIds: string[],
     logoId: string,
-    coverId: string,
-    primaryColor: number,
-    lightPrimaryColor: number,
-    textColor: number
+    price: Multilingual<string>
   ) {
     this.id = id
+    this.restaurantId = restaurantId
     this.name = name
-    this.slogan = slogan
     this.description = description
+    this.categoryIds = categoryIds
     this.logoId = logoId
-    this.coverId = coverId
-    this.primaryColor = primaryColor
-    this.lightPrimaryColor = lightPrimaryColor
-    this.textColor = textColor
+    this.price = price
   }
 
   get localedName(): string {
@@ -39,15 +33,13 @@ export class Restaurant {
     return parseMultilingual(this.name)
   }
 
-  get localedSlogan(): string {
-    if (typeof this.slogan === 'string') return this.slogan
-
-    return parseMultilingual(this.slogan)
-  }
-
   get localedDescription(): string {
     if (typeof this.description === 'string') return this.description
 
     return parseMultilingual(this.description)
+  }
+
+  get localedPrice(): string {
+    return parseMultilingual(this.price)
   }
 }

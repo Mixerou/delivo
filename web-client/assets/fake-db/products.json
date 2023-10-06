@@ -1,0 +1,848 @@
+[
+  {
+    "id": "7115859827888230400",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Truffle with mortadella",
+      "ruRu": "Трюфельная с мортаделлой"
+    },
+    "description": {
+      "enGb": "Mortadella, truffle sauce, mushrooms, red onions, mozzarella, alfredo specialty sauce, garlic",
+      "ruRu": "Мортаделла,  трюфельный соус,  шампиньоны,  красный лук,  моцарелла,  фирменный соус альфредо,  чеснок"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/6390157043034f8585c64cc279edbef1_1875x1875.png",
+    "price": {
+      "enGb": "$53.9",
+      "ruRu": "539₽"
+    }
+  },
+  {
+    "id": "7115868700007206912",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Mixed pizza",
+      "ruRu": "Пицца Миксик"
+    },
+    "description": {
+      "enGb": "Quarter pizza with ham, chicken, tomatoes, cheese, mozzarella, alfredo specialty sauce",
+      "ruRu": "Пицца четвертинками с ветчиной,  цыпленком,  томатами,  брынзой,  моцареллой,  фирменным соусом альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/32a726c9e28c49b3b491115e440b5a23_1875x1875.png",
+    "price": {
+      "enGb": "$undefine.d",
+      "ruRu": "undefined₽"
+    }
+  },
+  {
+    "id": "7115868753199370240",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Julienne pizza",
+      "ruRu": "Пицца Жюльен"
+    },
+    "description": {
+      "enGb": "Chicken, mushrooms, creamy mushroom sauce, red onions, garlic, mozzarella, cheddar and parmesan cheese blend, signature alfredo sauce",
+      "ruRu": "Цыпленок,  шампиньоны,  сливочный соус с грибами,  красный лук,  чеснок,  моцарелла,  смесь сыров чеддер и пармезан,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/f8bcc0d18f5a4817a720a159f0f8c37c_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115868785260630016",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Pizza halves",
+      "ruRu": "Пицца из половинок"
+    },
+    "description": {
+      "enGb": "Assemble your own 35cm pizza with two different flavors",
+      "ruRu": "Соберите свою пиццу 35 см с двумя разными вкусами"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3f5dfcb094b4c9b8200ca9f573cb2f1_1875x1875.png",
+    "price": {
+      "enGb": "$67.0",
+      "ruRu": "670₽"
+    }
+  },
+  {
+    "id": "7115868806693523456",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Cheese pizza",
+      "ruRu": "Сырная"
+    },
+    "description": {
+      "enGb": "Mozzarella, cheddar and parmesan cheeses, signature alfredo sauce",
+      "ruRu": "Моцарелла,  сыры чеддер и пармезан,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/d9c609f1422247f2b87b6293eb461ff0_1875x1875.png",
+    "price": {
+      "enGb": "$29.9",
+      "ruRu": "299₽"
+    }
+  },
+  {
+    "id": "7115868831867736064",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Pepperoni Fresh",
+      "ruRu": "Пепперони фреш"
+    },
+    "description": {
+      "enGb": "Spicy pepperoni, extra mozzarella, tomatoes, signature tomato sauce",
+      "ruRu": "Пикантная пепперони,  увеличенная порция моцареллы,  томаты,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/27c9bbd0af3a4d1d84a086d9c2f1656d_1875x1875.png",
+    "price": {
+      "enGb": "$29.9",
+      "ruRu": "299₽"
+    }
+  },
+  {
+    "id": "7115868850947624960",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Double chicken",
+      "ruRu": "Двойной цыпленок"
+    },
+    "description": {
+      "enGb": "Chicken, mozzarella, signature alfredo sauce",
+      "ruRu": "Цыпленок,  моцарелла,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/ddadb2bd7f2d40459acddbe2f51a2389_1875x1875.png",
+    "price": {
+      "enGb": "$38.9",
+      "ruRu": "389₽"
+    }
+  },
+  {
+    "id": "7115868877988302848",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Chorizo fresco",
+      "ruRu": "Чоризо фреш"
+    },
+    "description": {
+      "enGb": "Specialty tomato sauce, mozzarella, spicy chorizo, sweet peppers",
+      "ruRu": "Фирменный томатный соус,  моцарелла,  острая чоризо,  сладкий перец"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/02ca2561953b488993878d1f70e359de_1875x1875.png",
+    "price": {
+      "enGb": "$29.9",
+      "ruRu": "299₽"
+    }
+  },
+  {
+    "id": "7115868900482355200",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Ham and cheese",
+      "ruRu": "Ветчина и сыр"
+    },
+    "description": {
+      "enGb": "Ham, mozzarella, signature alfredo sauce.",
+      "ruRu": "Ветчина,  моцарелла,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/cea570842b754c52b786c231c65bd2e2_1875x1875.png",
+    "price": {
+      "enGb": "$38.9",
+      "ruRu": "389₽"
+    }
+  },
+  {
+    "id": "7115868925518155776",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Dodo Mix",
+      "ruRu": "Додо Микс"
+    },
+    "description": {
+      "enGb": "Bacon, chicken, ham, cheddar and parmesan cheeses, pesto sauce, cubes of cheese, tomatoes, red onions, bleu cheese, mozzarella, signature alfredo sauce, garlic, Italian herbs",
+      "ruRu": "Бекон,  цыпленок,  ветчина,  сыры чеддер и пармезан,  соус песто,  кубики брынзы,  томаты,  красный лук,  сыр блю чиз,  моцарелла,  фирменный соус альфредо,  чеснок,  итальянские травы"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/85479ab2c41e42408d3609dad068d2ef_1875x1875.png",
+    "price": {
+      "enGb": "$53.9",
+      "ruRu": "539₽"
+    }
+  },
+  {
+    "id": "7115868952193929216",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Carbonara",
+      "ruRu": "Карбонара"
+    },
+    "description": {
+      "enGb": "Bacon, cheddar and parmesan cheeses, mozzarella, tomatoes, red onions, garlic, alfredo specialty sauce, Italian herbs",
+      "ruRu": "Бекон,  сыры чеддер и пармезан,  моцарелла,  томаты,  красный лук,  чеснок,  фирменный соус альфредо,  итальянские травы"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/2cac8238ae9e42cd95dd00c17146e1fd_1875x1875.png",
+    "price": {
+      "enGb": "$53.9",
+      "ruRu": "539₽"
+    }
+  },
+  {
+    "id": "7115868975329710080",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Cheesy chicken",
+      "ruRu": "Сырный цыпленок"
+    },
+    "description": {
+      "enGb": "Chicken, mozzarella, cheddar and parmesan cheeses, cheese sauce, tomatoes, alfredo specialty sauce, garlic",
+      "ruRu": "Цыпленок,  моцарелла,  сыры чеддер и пармезан,  сырный соус,  томаты,  фирменный соус альфредо,  чеснок"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/42360a7dcb7640c998b723231586fe84_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869027137753088",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Burger pizza",
+      "ruRu": "Бургер-пицца"
+    },
+    "description": {
+      "enGb": "Ham, pickles, tomatoes, red onions, garlic, burger sauce, mozzarella, specialty tomato sauce",
+      "ruRu": "Ветчина,  маринованные огурчики,  томаты,  красный лук,  чеснок,  соус бургер,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/3a948b9d5af14d219e2c54282229755a_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869075879759872",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Pesto",
+      "ruRu": "Песто"
+    },
+    "description": {
+      "enGb": "Chicken, pesto sauce, cubes of cheese, tomatoes, mozzarella, specialty alfredo sauce",
+      "ruRu": "Цыпленок,  соус песто,  кубики брынзы,  томаты,  моцарелла,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/6046174c06e440299c4e7117a8ecfea4_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869110189166592",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Meat",
+      "ruRu": "Мясная"
+    },
+    "description": {
+      "enGb": "Chicken, ham, spicy pepperoni, spicy chorizo, mozzarella, specialty tomato sauce",
+      "ruRu": "Цыпленок,  ветчина,  пикантная пепперони,  острая чоризо,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/18dbb12240b041a191c9dc73c9c1f4ef_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869143076704256",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Hawaiian",
+      "ruRu": "Гавайская"
+    },
+    "description": {
+      "enGb": "Signature alfredo sauce, chicken, mozzarella, pineapples.",
+      "ruRu": "Фирменный соус альфредо,  цыпленок,  моцарелла,  ананасы"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/c24bb8e55baa4ca68945459ac6afdf3e_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869167663714304",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Dodo",
+      "ruRu": "Додо"
+    },
+    "description": {
+      "enGb": "Bacon, mitboli, spicy pepperoni, mozzarella, tomatoes, mushrooms, sweet peppers, red onions, garlic, specialty tomato sauce",
+      "ruRu": "Бекон,  митболы,  пикантная пепперони,  моцарелла,  томаты,  шампиньоны,  сладкий перец,  красный лук,  чеснок,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/27bc9bfab5f64bb196fa1ad598ca19a6_1875x1875.png",
+    "price": {
+      "enGb": "$68.9",
+      "ruRu": "689₽"
+    }
+  },
+  {
+    "id": "7115869191516721152",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "BBQ chicken",
+      "ruRu": "Цыпленок барбекю"
+    },
+    "description": {
+      "enGb": "Chicken, bacon, BBQ sauce, red onion, mozzarella, specialty tomato sauce",
+      "ruRu": "Цыпленок,  бекон,  соус барбекю,  красный лук,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/45cc8ffb190c4a28aaf1863a67f675c7_1875x1875.png",
+    "price": {
+      "enGb": "$53.9",
+      "ruRu": "539₽"
+    }
+  },
+  {
+    "id": "7115869227986194432",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Arriva!",
+      "ruRu": "Аррива!"
+    },
+    "description": {
+      "enGb": "Spicy chorizo, chicken, tomatoes, burger sauce, sweet peppers, red onions, mozzarella, ranch sauce, garlic",
+      "ruRu": "Острая чоризо,  цыпленок,  томаты,  соус бургер,  сладкий перец,  красный лук,  моцарелла,  соус ранч,  чеснок"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/bebaa13644304e75b438e45be9eb5076_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869246189473792",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Build your own pizza",
+      "ruRu": "Соберите свою пиццу"
+    },
+    "description": {
+      "enGb": "The pizza base is topped with an increased portion of mozzarella and signature tomato sauce, and other ingredients can be chosen to suit your taste",
+      "ruRu": "В основе пиццы увеличенная порция моцареллы и фирменный томатный соус,  а другие ингредиенты можно выбрать на свой вкус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/7e354a063fe4456595f8d8076fbeb10f_1875x1875.png",
+    "price": {
+      "enGb": "$29.9",
+      "ruRu": "299₽"
+    }
+  },
+  {
+    "id": "7115869268192792576",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Four cheese",
+      "ruRu": "Четыре сыра"
+    },
+    "description": {
+      "enGb": "Blue cheese, cheddar and parmesan cheese blend, mozzarella, signature alfredo sauce",
+      "ruRu": "Сыр блю чиз,  смесь сыров чеддер и пармезан,  моцарелла,  фирменный соус альфредо"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/50555f951a6d4fd4ac0088c099eb3769_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869289797652480",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Pepperoni",
+      "ruRu": "Пепперони"
+    },
+    "description": {
+      "enGb": "Spicy pepperoni, extra mozzarella, specialty tomato sauce",
+      "ruRu": "Пикантная пепперони,  увеличенная порция моцареллы,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/fb9cc5b8ff2e47bdbcbdcb5930cddf06_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869317438115840",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Chicken Ranch",
+      "ruRu": "Цыпленок ранч"
+    },
+    "description": {
+      "enGb": "Chicken, ham, ranch sauce, mozzarella, tomatoes, garlic",
+      "ruRu": "Цыпленок,  ветчина,  соус ранч,  моцарелла,  томаты,  чеснок"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/3e5f5f0adf7f4cdfa342ffb9b7b19590_1875x1875.png",
+    "price": {
+      "enGb": "$68.9",
+      "ruRu": "689₽"
+    }
+  },
+  {
+    "id": "7115869344415879168",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Four Seasons",
+      "ruRu": "Четыре сезона"
+    },
+    "description": {
+      "enGb": "Increased portion of mozzarella, ham, spicy pepperoni, cubes of cheese, tomatoes, mushrooms, Italian herbs, specialty tomato sauce",
+      "ruRu": "Увеличенная порция моцареллы,  ветчина,  пикантная пепперони,  кубики брынзы,  томаты,  шампиньоны,  итальянские травы,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/d51fa179760041f0831e63fa21c39402_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869369464262656",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Ham and mushrooms",
+      "ruRu": "Ветчина и грибы"
+    },
+    "description": {
+      "enGb": "Ham, mushrooms, extra mozzarella, specialty tomato sauce",
+      "ruRu": "Ветчина,  шампиньоны,  увеличенная порция моцареллы,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/0c24c7c195574d7cae45c889bd8043fc_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869394705584128",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Diablo ",
+      "ruRu": "Диабло "
+    },
+    "description": {
+      "enGb": "Spicy chorizo, hot jalapeño peppers, barbecue sauce, mitballs, tomatoes, sweet peppers, red onions, mozzarella, specialty tomato sauce",
+      "ruRu": "Острая чоризо,  острый перец халапеньо,  соус барбекю,  митболы,  томаты,  сладкий перец,  красный лук,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/03c840b1ab6f4ccb84f5dc167e146598_1875x1875.png",
+    "price": {
+      "enGb": "$53.9",
+      "ruRu": "539₽"
+    }
+  },
+  {
+    "id": "7115869419124822016",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Margarita7115869444919791616",
+      "ruRu": "Маргарита"
+    },
+    "description": {
+      "enGb": "Increased mozzarella, tomatoes, Italian herbs, specialty tomato sauce",
+      "ruRu": "Увеличенная порция моцареллы,  томаты,  итальянские травы,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/748949429e25404ea10aab002c910d84_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869463051767808",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Vegetables and mushrooms",
+      "ruRu": "Овощи и грибы"
+    },
+    "description": {
+      "enGb": "Mushrooms, tomatoes, sweet peppers, red onions, cubes of cheese, mozzarella, specialty tomato sauce, Italian herbs",
+      "ruRu": "Шампиньоны,  томаты,  сладкий перец,  красный лук,  кубики брынзы,  моцарелла,  фирменный томатный соус,  итальянские травы"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/d6c9f93ea37649ac923e9586c034a5a0_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869482228125696",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Double pepperoni",
+      "ruRu": "Двойная пепперони"
+    },
+    "description": {
+      "enGb": "Double portion of spicy pepperoni, increased portion of mozzarella, specialty tomato sauce",
+      "ruRu": "Двойная порция пикантной пепперони,  увеличенная порция моцареллы,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/a96e936c158249e18c831bbcce677065_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115869500783726592",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Barbecue sausage",
+      "ruRu": "Колбаски барбекю"
+    },
+    "description": {
+      "enGb": "Spicy chorizo, BBQ sauce, tomatoes, red onions, mozzarella, specialty tomato sauce",
+      "ruRu": "Острая чоризо,  соус барбекю,  томаты,  красный лук,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/10b95b8611ec457dbffd9613b8eb165a_1875x1875.png",
+    "price": {
+      "enGb": "$43.9",
+      "ruRu": "439₽"
+    }
+  },
+  {
+    "id": "7115869524888391680",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Mortadella meat mix",
+      "ruRu": "Мясной микс с мортаделлой"
+    },
+    "description": {
+      "enGb": "Mortadella, spicy pepperoni, spicy chorizo, bacon, mozzarella, specialty tomato sauce",
+      "ruRu": "Мортаделла,  пикантная пепперони,  острая чоризо,  бекон,  моцарелла,  фирменный томатный соус"
+    },
+    "categoryIds": ["7115833345900023809"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/Products/6b4651f0dfb14d4598d57c5814c7fb3e_1875x1875.png",
+    "price": {
+      "enGb": "$48.9",
+      "ruRu": "489₽"
+    }
+  },
+  {
+    "id": "7115884752661385216",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Smeshariki combo",
+      "ruRu": "Комбо от Смешариков"
+    },
+    "description": {
+      "enGb": "Approved by cartoon characters: a small pizza of any flavor and a young gardener's kit. The price of the combo depends on the selected pizzas and can be increased",
+      "ruRu": "Одобрено героями мультфильма: маленькая пицца любого вкуса и набор юного садовода. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/02989e65729e4b20b2e469db3278ac40_1875x1875.png",
+    "price": {
+      "enGb": "$37.9",
+      "ruRu": "379₽"
+    }
+  },
+  {
+    "id": "7115884774773755904",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Combo from 599 ₽",
+      "ruRu": "Комбо от 599 ₽"
+    },
+    "description": {
+      "enGb": "If you want a little bit of everything. Small pizza, appetizer, drink and sauce. The price of the combo depends on the selected products and may be increased",
+      "ruRu": "Если хочется всего понемногу. Маленькая пицца, закуска, напиток и соус. Цена комбо зависит от выбранных продуктов и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/9b08d22b68a749ea8afcba828fcfb382_1875x1875.png",
+    "price": {
+      "enGb": "$59.9",
+      "ruRu": "599₽"
+    }
+  },
+  {
+    "id": "7115884799620812800",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "3 pizzas from 799 ₽",
+      "ruRu": "3 пиццы от 799 ₽"
+    },
+    "description": {
+      "enGb": "Real Tasting. Three small pizzas at a super price. Combo price depends on pizzas selected and may be increased",
+      "ruRu": "Настоящая дегустация. Три маленькие пиццы по суперцене. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6cc0dfe814d147c3b0843e452e2f9b0c_1875x1875.png",
+    "price": {
+      "enGb": "$79.9",
+      "ruRu": "799₽"
+    }
+  },
+  {
+    "id": "7115884826393055232",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 pizzas",
+      "ruRu": "2 пиццы"
+    },
+    "description": {
+      "enGb": "Couple of what you need. 2 medium pizzas. The price of the combo depends on the selected pizzas and can be increased",
+      "ruRu": "Парочка что надо. 2 средние пиццы. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/888a8d15a9a34830ab5a1637a17d47c5_1875x1875.png",
+    "price": {
+      "enGb": "$98.9",
+      "ruRu": "989₽"
+    }
+  },
+  {
+    "id": "7115884850787127296",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "3 pizzas ",
+      "ruRu": "3 пиццы "
+    },
+    "description": {
+      "enGb": "The three delights on our menu are 3 medium pizzas of your choice. The price of the combo depends on the selected pizzas and can be increased",
+      "ruRu": "Три удовольствия в нашем меню — это 3 средние пиццы на ваш выбор. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/b0f1819c175546e2a95c712c26e74b87_1875x1875.png",
+    "price": {
+      "enGb": "$109.9",
+      "ruRu": "1.099₽"
+    }
+  },
+  {
+    "id": "7115884873008549888",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 pizzas and a drink",
+      "ruRu": "2 пиццы и напиток"
+    },
+    "description": {
+      "enGb": "For cozy sit-downs. 2 small pizzas and a drink of your choice. For a company of 2-4 people. The price of the combo depends on the selected products and can be increased",
+      "ruRu": "Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2-4 человек. Цена комбо зависит от выбранных продуктов и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/8655eb0d49d44ff49af1493036e766d4_1875x1875.png",
+    "price": {
+      "enGb": "$83.9",
+      "ruRu": "839₽"
+    }
+  },
+  {
+    "id": "7115884907338928128",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "4 Appetizers",
+      "ruRu": "4 Закуски"
+    },
+    "description": {
+      "enGb": "A hearty quartet for a small company. Combo of four appetizers to choose from",
+      "ruRu": "Сытный квартет для маленькой компании. Комбо из четырех закусок на выбор"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/c010992fb6bc439d89f93d1c990efb84_1875x1875.png",
+    "price": {
+      "enGb": "$65.9",
+      "ruRu": "659₽"
+    }
+  },
+  {
+    "id": "7115884907338928129",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "5 pizzas",
+      "ruRu": "5 пицц"
+    },
+    "description": {
+      "enGb": "5 reasons to make the party tastier. 5 medium pizzas for a company of 10-15 people. The price of the combo depends on the pizzas chosen and can be increased",
+      "ruRu": "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10–15 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/a4962e8682384c18988449ccb5746270_1875x1875.png",
+    "price": {
+      "enGb": "$241.9",
+      "ruRu": "2.419₽"
+    }
+  },
+  {
+    "id": "7115884907338928130",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "7 pizzas",
+      "ruRu": "7 пицц"
+    },
+    "description": {
+      "enGb": "7 is a lucky number, especially when it comes to 7 medium pizzas for a company of 15-20 people. The price of the combo depends on the pizzas selected and can be increased",
+      "ruRu": "7 — счастливое число, особенно если речь о 7 средних пиццах на компанию 15-20 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/ee7881d13c9e495f934f7670faf6959d_1875x1875.png",
+    "price": {
+      "enGb": "$335.9",
+      "ruRu": "3.359₽"
+    }
+  },
+  {
+    "id": "7115884907338928131",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "10 pizzas",
+      "ruRu": "10 пицц"
+    },
+    "description": {
+      "enGb": "The Magnificent Ten. 10 medium pizzas to suit all tastes. For a company of 20-30 people. The price of the combo depends on the selected pizzas and can be increased",
+      "ruRu": "Великолепная десятка. 10 средних пицц на любой вкус. Для компании из 20-30 человек. Цена комбо зависит от выбранных пицц и может быть увеличена"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/43e67a191ab14555afdc4e3707dabccb_1875x1875.png",
+    "price": {
+      "enGb": "$489.9",
+      "ruRu": "4.899₽"
+    }
+  },
+  {
+    "id": "7115884907338928132",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 Coffees: Latte or Cappuccino",
+      "ruRu": "2 Кофе: Латте или Капучино"
+    },
+    "description": {
+      "enGb": "A great opportunity to test where milk foam tastes better - in a latte or in a cappuccino?",
+      "ruRu": "Отличная возможность проверить, где молочная пенка вкуснее — в латте или в капучино?"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/f2751f0e30db461d8179689de11b586b_1875x1875.png",
+    "price": {
+      "enGb": "$28.9",
+      "ruRu": "289₽"
+    }
+  },
+  {
+    "id": "7115884907338928133",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 Dodsters",
+      "ruRu": "2 Додстера"
+    },
+    "description": {
+      "enGb": "I want two hot Dodsters! Especially if one is Classic and the other is Spicy with jalapenos, pickles and barbecue sauce in a thin wheat tortilla.",
+      "ruRu": "Кручу-верчу, два горячих Додстера хочу! Особенно, если один Классический, а другой — Острый с халапеньо, солеными огурчиками и соусом барбекю в тонкой пшеничной лепешке"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/af8b050affe94a6e8bcb95bf1cfb2ea7_1875x1875.png",
+    "price": {
+      "enGb": "$31.9",
+      "ruRu": "319₽"
+    }
+  },
+  {
+    "id": "7115884907338928134",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 Starters",
+      "ruRu": "2 Стартера"
+    },
+    "description": {
+      "enGb": "A hot appetizer with mozzarella in a wheat tortilla is good. And two in different flavors is even better. Choose Mushroom with mushrooms or Cheesy with parmesan and cheddar",
+      "ruRu": "Горячая закуска с моцареллой в пшеничной лепешке — это хорошо. А две с разными вкусами — еще лучше. Выберите Грибной с шампиньонами или Сырный с пармезаном и чеддером"
+    },
+    "categoryIds": ["7115833345900023808", "7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/87b0617d5bd642628b7629e2d76ee1a9_1875x1875.png",
+    "price": {
+      "enGb": "$32.9",
+      "ruRu": "329₽"
+    }
+  },
+  {
+    "id": "7115884907338928135",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 Sauces",
+      "ruRu": "2 соуса"
+    },
+    "description": {
+      "enGb": "Cheesy, Barbecue or Garlic. Combine pairs of sauces for colorful snacks",
+      "ruRu": "Сырный, Барбекю или Чесночный. Комбинируйте пары соусов для ярких перекусов"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/6fa2a6db08d04a45bee868db7e18aa36_1875x1875.png",
+    "price": {
+      "enGb": "$7.5",
+      "ruRu": "75₽"
+    }
+  },
+  {
+    "id": "7115884907338928136",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "2 Desserts",
+      "ruRu": "2 Десерта"
+    },
+    "description": {
+      "enGb": "Any way you slice it, a sweet pairing will come out. You want two muffins, or you can make up your own duo of other desserts",
+      "ruRu": "Тут как ни крути, выйдет сладкая парочка. Хотите — два маффина, а хотите — составьте ваш собственный дуэт из других десертов"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/7ea7a45d9a03453783c3f75f2feea2e9_1875x1875.png",
+    "price": {
+      "enGb": "$17.9",
+      "ruRu": "179₽"
+    }
+  },
+  {
+    "id": "7115884907338928137",
+    "restaurantId": "1158814884419604611",
+    "name": {
+      "enGb": "Favorable Pairing: 2 Beverages",
+      "ruRu": "Выгодная пара: 2 Напитка"
+    },
+    "description": {
+      "enGb": "In a word, a liter. Choose two bottles to suit your tastes: Kind soda or Rich iced tea.",
+      "ruRu": "Одним словом — литр. Выберите две бутылочки на свой вкус: газировку Добрый или холодный чай Rich"
+    },
+    "categoryIds": ["7115833345900023810"],
+    "logoId": "https://dodopizza-a.akamaihd.net/static/Img/ComboTemplates/4b55266fd5a34a4badeee990119b6aac_1875x1875.png",
+    "price": {
+      "enGb": "$19.9",
+      "ruRu": "199₽"
+    }
+  }
+]

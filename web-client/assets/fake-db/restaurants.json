@@ -16,7 +16,8 @@
     "logoId": "7115696484753870848",
     "coverId": "7115696484753870849",
     "primaryColor": 13938065,
-    "lightPrimaryColor": 16249067
+    "lightPrimaryColor": 16249067,
+    "textColor": 9658169
   },
   {
     "id": "7115696342520827905",
@@ -32,7 +33,8 @@
     "logoId": "7115696484753870850",
     "coverId": "7115696484753870851",
     "primaryColor": 14388311,
-    "lightPrimaryColor": 16445416
+    "lightPrimaryColor": 16445416,
+    "textColor": 9657657
   },
   {
     "id": "7115696342520827906",
@@ -48,6 +50,7 @@
     "logoId": "7115696656841969664",
     "coverId": "7115696656841969665",
     "primaryColor": 12004936,
-    "lightPrimaryColor": 16378348
+    "lightPrimaryColor": 16378348,
+    "textColor": 9648458
   }
 ]

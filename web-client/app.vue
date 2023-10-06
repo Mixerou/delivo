@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { locale, locales, t } = useI18n()
-const system = useSystemStore()
+const systemStore = useSystemStore()
 const localeCookie = useCookie('locale', {
   expires: new Date(Date.now() * 2),
 })
@@ -38,7 +38,7 @@ const getClientLocale = () => {
 
 const clientLocale = getClientLocale()
 
-system.setLocale(
+systemStore.setLocale(
   typeof clientLocale === 'object' ? clientLocale.code : String(clientLocale)
 )
 
@@ -46,7 +46,7 @@ watchEffect(() => {
   useHead({
     titleTemplate: title => (title ? `${title} - Delivo` : 'Delivo'),
     htmlAttrs: {
-      lang: system.locale,
+      lang: systemStore.locale,
     },
     meta: [
       {
@@ -54,6 +54,42 @@ watchEffect(() => {
         content: t('delivo.description.short'),
       },
     ],
+  })
+})
+
+onMounted(() => {
+  watchEffect(() => {
+    const styleTag: undefined | HTMLStyleElement = Array.from(
+      document.querySelectorAll('style')
+    ).find((element: HTMLStyleElement) => element.innerHTML.includes('_colors'))
+
+    if (styleTag === undefined) return
+
+    const css = styleTag.innerHTML
+    const primaryVariable = css.match(/--primary: ?#[a-fA-F0-9]{6}/)
+    const lightPrimaryVariable = css.match(/--primary-light: ?#[a-fA-F0-9]{6}/)
+    const textColorVariable = css.match(/--text-color: ?#[a-fA-F0-9]{6}/)
+
+    if (
+      primaryVariable === null ||
+      lightPrimaryVariable === null ||
+      textColorVariable === null
+    )
+      return
+
+    styleTag.innerHTML = css
+      .replace(
+        primaryVariable[0],
+        `--primary: #${systemStore.primaryColor.toString(16)}`
+      )
+      .replace(
+        lightPrimaryVariable[0],
+        `--primary-light: #${systemStore.lightPrimaryColor.toString(16)}`
+      )
+      .replace(
+        textColorVariable[0],
+        `--text-color: #${systemStore.textColor.toString(16)}`
+      )
   })
 })
 </script>

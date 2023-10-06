@@ -32,6 +32,7 @@ footer {
   padding: 1rem 0;
   border-radius: var(--xl-radius);
   background: var(--primary-light);
+  transition: var(--fast-transition-duration);
 
   @include medium-screen {
     width: calc(100% - 3rem * 2);

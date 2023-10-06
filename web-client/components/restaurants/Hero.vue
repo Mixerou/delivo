@@ -11,11 +11,11 @@ section {
   display: flex;
   align-items: center;
   @include default-widths;
-  margin: 2rem auto;
+  margin: var(--mobile-hero-margin);
 
   @include medium-screen {
-    height: 20rem;
-    margin: 0 auto;
+    height: var(--default-hero-height);
+    margin: var(--default-hero-margin);
   }
 }
 </style>

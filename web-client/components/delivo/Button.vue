@@ -1,9 +1,14 @@
 <script setup lang="ts">
 defineProps({
   size: {
-    type: String as PropType<'default, small'>,
+    type: String as PropType<'default' | 'small'>,
     required: false,
     default: 'default',
+  },
+  disabled: {
+    type: Boolean,
+    required: false,
+    default: false,
   },
   expanded: {
     type: Boolean,
@@ -24,7 +29,12 @@ defineProps({
 </script>
 
 <template>
-  <button v-if="to === null" :class="{ expanded, outlined }" :data-size="size">
+  <button
+    v-if="to === null"
+    :class="{ expanded, outlined }"
+    :disabled="disabled"
+    :data-size="size"
+  >
     <slot />
   </button>
   <NuxtLink v-else :to="to" :class="{ expanded, outlined }" :data-size="size">
@@ -40,6 +50,8 @@ a {
   justify-content: center;
   align-items: center;
   padding: 0 var(--_padding-x);
+  border: var(--default-border);
+  border-color: transparent;
   border-radius: var(--full-radius);
   background: var(--primary);
   cursor: pointer;
@@ -47,12 +59,18 @@ a {
   color: var(--white);
   transition: var(--fast-transition-duration);
 
-  &:hover {
-    background: color-with-opacity(var(--primary), 0.875);
+  &:not(:disabled) {
+    &:hover {
+      background: color-with-opacity(var(--primary), 0.875);
+    }
+
+    &:active {
+      background: color-with-opacity(var(--primary), 0.75);
+    }
   }
 
-  &:active {
-    background: color-with-opacity(var(--primary), 0.75);
+  &:disabled {
+    cursor: not-allowed;
   }
 
   &[data-size='default'] {
@@ -88,18 +106,20 @@ a {
   }
 
   &.outlined {
-    border: var(--default-border);
+    border-color: var(--primary);
     background: transparent;
     color: var(--text-color);
 
-    &:hover {
-      background: color-with-opacity(var(--primary), 0.125);
-    }
+    &:not(:disabled) {
+      &:hover {
+        background: color-with-opacity(var(--primary), 0.125);
+      }
 
-    &:active {
-      border-color: transparent;
-      background: color-with-opacity(var(--primary), 0.75);
-      color: var(--white);
+      &:active {
+        border-color: transparent;
+        background: color-with-opacity(var(--primary), 0.75);
+        color: var(--white);
+      }
     }
   }
 }

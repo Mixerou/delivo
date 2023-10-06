@@ -69,14 +69,17 @@ svg {
   .border {
     filter: brightness(var(--_dark-factor));
     fill: var(--primary);
+    transition: var(--fast-transition-duration);
   }
 
   .background {
     fill: var(--primary);
+    transition: var(--fast-transition-duration);
   }
 
   .king {
     fill: var(--white);
+    transition: var(--fast-transition-duration);
 
     &[data-color='inverted'] {
       filter: brightness(var(--_dark-factor));
